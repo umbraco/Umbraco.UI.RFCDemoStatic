@@ -1,0 +1,789 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "uui-avatar-group",
+      "path": "./src/components/basics/uui-avatar-group-example-page/uui-avatar-group-example-page.element.ts",
+      "properties": [
+        {
+          "name": "totalAvatars",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "uui-avatar-group",
+      "path": "./src/components/basics/uui-avatar-group/uui-avatar-group.element.ts",
+      "attributes": [
+        {
+          "name": "limit",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        },
+        {
+          "name": "size",
+          "type": "AvatarSizeType",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        },
+        {
+          "name": "limit",
+          "attribute": "limit",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "look",
+          "attribute": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "AvatarSizeType",
+          "default": "\"\""
+        },
+        {
+          "name": "overflow",
+          "type": "number"
+        },
+        {
+          "name": "overflowIsVisible",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "uui-badge",
+      "path": "./src/components/basics/uui-badge/uui-badge.element.ts",
+      "attributes": [
+        {
+          "name": "look",
+          "type": "InterfaceLookType",
+          "default": "\"danger\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "(CSSResult | CSSResult[])[]",
+          "default": "[null,null]"
+        },
+        {
+          "name": "look",
+          "attribute": "look",
+          "type": "InterfaceLookType",
+          "default": "\"danger\""
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "for badge contents"
+        }
+      ]
+    },
+    {
+      "name": "uui-button-group",
+      "path": "./src/components/basics/uui-button-group/uui-button-group.element.ts",
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "for buttons"
+        }
+      ]
+    },
+    {
+      "name": "uui-button",
+      "path": "./src/components/basics/uui-button/uui-button.element.ts",
+      "attributes": [
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "aria-label",
+          "type": "string | undefined"
+        },
+        {
+          "name": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "(CSSResult | CSSResult[])[]",
+          "default": "[\"UUIHorizontalShakeKeyframes\",null,null,null]"
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "ariaLabel",
+          "attribute": "aria-label",
+          "type": "string | undefined"
+        },
+        {
+          "name": "look",
+          "attribute": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        }
+      ],
+      "events": [
+        {
+          "name": "click",
+          "description": "fires when the element is clicked"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "for button contents"
+        }
+      ]
+    },
+    {
+      "name": "uui-toggle",
+      "path": "./src/components/basics/uui-checkbox/uui-checkbox-base.element.ts",
+      "attributes": [
+        {
+          "name": "form",
+          "type": "string | null"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "label-position",
+          "type": "LabelPosition",
+          "default": "\"right\""
+        },
+        {
+          "name": "hide-label",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        },
+        {
+          "name": "formAssociated",
+          "type": "true",
+          "default": "true"
+        },
+        {
+          "name": "form",
+          "attribute": "form",
+          "type": "string | null"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string"
+        },
+        {
+          "name": "labelPosition",
+          "attribute": "label-position",
+          "type": "LabelPosition",
+          "default": "\"right\""
+        },
+        {
+          "name": "hideLabel",
+          "attribute": "hide-label",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "change",
+          "description": "fires when the element is begin checked by a user action"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "to overwrite displayed label content"
+        }
+      ]
+    },
+    {
+      "name": "uui-toggle",
+      "path": "./src/components/basics/uui-checkbox/uui-checkbox.element.ts",
+      "attributes": [
+        {
+          "name": "form",
+          "type": "string | null"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "label-position",
+          "type": "LabelPosition",
+          "default": "\"right\""
+        },
+        {
+          "name": "hide-label",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null,\"UUIHorizontalShakeKeyframes\",null]"
+        },
+        {
+          "name": "formAssociated",
+          "type": "true",
+          "default": "true"
+        },
+        {
+          "name": "form",
+          "attribute": "form",
+          "type": "string | null"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string"
+        },
+        {
+          "name": "labelPosition",
+          "attribute": "label-position",
+          "type": "LabelPosition",
+          "default": "\"right\""
+        },
+        {
+          "name": "hideLabel",
+          "attribute": "hide-label",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "change",
+          "description": "fires when the element is begin checked by a user action"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "to overwrite displayed label content"
+        }
+      ]
+    },
+    {
+      "name": "uui-icon",
+      "path": "./src/components/basics/uui-icon/uui-icon.element.ts",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string | null"
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string | null"
+        }
+      ]
+    },
+    {
+      "name": "uui-loader",
+      "path": "./src/components/basics/uui-loader/uui-loader.element.ts",
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        }
+      ]
+    },
+    {
+      "name": "uui-badge",
+      "path": "./src/components/basics/uui-tag/uui-tag.element.ts",
+      "attributes": [
+        {
+          "name": "size",
+          "type": "Size",
+          "default": "\"m\""
+        },
+        {
+          "name": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "(CSSResult | CSSResult[])[]",
+          "default": "[null,null]"
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "Size",
+          "default": "\"m\""
+        },
+        {
+          "name": "look",
+          "attribute": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "for badge contents"
+        }
+      ]
+    },
+    {
+      "name": "uui-textfield",
+      "path": "./src/components/basics/uui-textfield/uui-textfield.element.ts",
+      "attributes": [
+        {
+          "name": "label",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "value",
+          "type": "FormDataEntryValue"
+        },
+        {
+          "name": "type",
+          "type": "TextFieldType",
+          "default": "\"text\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        },
+        {
+          "name": "formAssociated",
+          "type": "true",
+          "default": "true"
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "placeholder",
+          "attribute": "placeholder",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "FormDataEntryValue"
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "type": "TextFieldType",
+          "default": "\"text\""
+        }
+      ]
+    },
+    {
+      "name": "uui-toggle",
+      "path": "./src/components/basics/uui-toggle/uui-toggle.element.ts",
+      "attributes": [
+        {
+          "name": "form",
+          "type": "string | null"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "label-position",
+          "type": "LabelPosition",
+          "default": "\"right\""
+        },
+        {
+          "name": "hide-label",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null,\"UUIHorizontalShakeKeyframes\",null]"
+        },
+        {
+          "name": "formAssociated",
+          "type": "true",
+          "default": "true"
+        },
+        {
+          "name": "form",
+          "attribute": "form",
+          "type": "string | null"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string"
+        },
+        {
+          "name": "labelPosition",
+          "attribute": "label-position",
+          "type": "LabelPosition",
+          "default": "\"right\""
+        },
+        {
+          "name": "hideLabel",
+          "attribute": "hide-label",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "change",
+          "description": "fires when the element is begin checked by a user action"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "to overwrite displayed label content"
+        }
+      ]
+    },
+    {
+      "name": "uui-confirm-dialog",
+      "path": "./src/components/fragments/uui-confirm-dialog/uui-confirm-dialog.element.ts",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "submitLabel",
+          "type": "string",
+          "default": "\"Confirm\""
+        },
+        {
+          "name": "cancelLabel",
+          "type": "string",
+          "default": "\"Cancel\""
+        },
+        {
+          "name": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "title",
+          "attribute": "title",
+          "type": "string"
+        },
+        {
+          "name": "submitLabel",
+          "attribute": "submitLabel",
+          "type": "string",
+          "default": "\"Confirm\""
+        },
+        {
+          "name": "cancelLabel",
+          "attribute": "cancelLabel",
+          "type": "string",
+          "default": "\"Cancel\""
+        },
+        {
+          "name": "look",
+          "attribute": "look",
+          "type": "InterfaceLookType",
+          "default": "\"\""
+        }
+      ],
+      "events": [
+        {
+          "name": "confirm",
+          "description": "fires when the confirm-button is clicked"
+        },
+        {
+          "name": "reject",
+          "description": "fires when the reject-button is clicked"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Confirm dialog description"
+        }
+      ]
+    },
+    {
+      "name": "uui-dialog",
+      "path": "./src/components/fragments/uui-dialog/uui-dialog.element.ts",
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "for dialog contents"
+        }
+      ]
+    },
+    {
+      "name": "uui-tab-group",
+      "path": "./src/components/navigation/uui-tab-group/uui-tab-group.element.ts",
+      "attributes": [
+        {
+          "name": "active",
+          "type": "string | null"
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        },
+        {
+          "name": "active",
+          "attribute": "active",
+          "type": "string | null"
+        }
+      ]
+    },
+    {
+      "name": "uui-editor-tab",
+      "path": "./src/components/navigation/uui-tab/uui-tab.element.ts",
+      "attributes": [
+        {
+          "name": "active",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "key",
+          "type": "string | null"
+        }
+      ],
+      "properties": [
+        {
+          "name": "styles",
+          "type": "CSSResult[]",
+          "default": "[null]"
+        },
+        {
+          "name": "active",
+          "attribute": "active",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "key",
+          "attribute": "key",
+          "type": "string | null"
+        }
+      ]
+    },
+    {
+      "name": "uui-tabs-example-page",
+      "path": "./src/components/navigation/uui-tabs-example-page/uui-tabs-example-page.element.ts"
+    }
+  ]
+}

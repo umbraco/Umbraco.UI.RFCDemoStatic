@@ -1,0 +1,9 @@
+/*
+
+Temporary solution to include root css from a component, don't know at this stage wether that will be needed.
+
+@import "../../components/basics/uui-button/custom-properties.css";
+
+*/
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9zdHlsZS9jdXN0b20tcHJvcGVydGllcy9jb21wb25lbnRzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7O0NBTUMiLCJmaWxlIjoiY29tcG9uZW50cy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuXG5UZW1wb3Jhcnkgc29sdXRpb24gdG8gaW5jbHVkZSByb290IGNzcyBmcm9tIGEgY29tcG9uZW50LCBkb24ndCBrbm93IGF0IHRoaXMgc3RhZ2Ugd2V0aGVyIHRoYXQgd2lsbCBiZSBuZWVkZWQuXG5cbkBpbXBvcnQgXCIuLi8uLi9jb21wb25lbnRzL2Jhc2ljcy91dWktYnV0dG9uL2N1c3RvbS1wcm9wZXJ0aWVzLmNzc1wiO1xuXG4qL1xuIl19 */
